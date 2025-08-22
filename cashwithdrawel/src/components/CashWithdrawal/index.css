@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardContainer {
+  background-color: #150b3e;
+  padding: 20px;
+  width: 30vw;
+  border-radius: 17px;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.logo {
+  padding: 16px 18px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-size: 14px;
+  font-weight: bold;
+}
+.name {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.common {
+  color: #585076;
+}
+.amount {
+  font-size: 27px;
+  color: #fff;
+  font-weight: 500;
+}
+.con3heading {
+  font-size: 27px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.container4 {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.listItem {
+  width: 43%;
+}
+.button {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #585076;
+  border: 2px solid #fff;
+}
+
+@media screen and (max-width: 576px) {
+  .cardContainer {
+    width: 90vw;
+  }
+}
