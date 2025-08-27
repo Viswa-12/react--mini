@@ -1,0 +1,154 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #3367d6;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+}
+.imgContainer {
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+}
+.headerlogo {
+  width: 38%;
+}
+.searchContainer {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIcon {
+  width: 25px;
+  height: 25px;
+  background-color: #2850a7;
+  padding: 8px;
+  border-right: 1px solid #ececec;
+}
+.userInput {
+  width: 48%;
+  height: 40px;
+  background-color: #2850a7;
+  outline: none;
+  border: none;
+  color: #f0eaea;
+  font-size: 17px;
+  padding-left: 10px;
+}
+.outerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+.listsContainer {
+  width: 57vw;
+  box-shadow: 0px 10px 10px 8px rgb(203, 203, 203);
+  padding: 10px;
+  list-style: none;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+}
+.timing {
+  width: 15%;
+  text-align: center;
+}
+.innerContainer1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+}
+.innerContainer2,
+.innerContainer3 {
+  display: flex;
+  align-items: center;
+}
+.innerContainer3 {
+  margin-left: 15px;
+}
+.logo {
+  width: 26px;
+  height: 26px;
+}
+.logoName {
+  font-weight: 600;
+}
+.logoLink {
+  margin-left: 15px;
+  margin-right: 10px;
+  color: #64748b;
+}
+.errorDiv {
+  margin-top: 110px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errorMsg {
+  color: #64748b;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 1175px) {
+  .imgContainer {
+    width: 33vw;
+  }
+  .searchContainer {
+    width: 60vw;
+  }
+  .headerlogo {
+    width: 62%;
+  }
+  .searchIcon {
+    width: 22px;
+    height: 22px;
+    padding: 6px;
+  }
+  .userInput {
+    width: 56%;
+    height: 34px;
+    font-size: 13px;
+  }
+  .outerdiv {
+    margin-top: 95px;
+  }
+  .listsContainer {
+    width: 95vw;
+  }
+  .listItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .timing {
+    text-align: start;
+    width: 80%;
+    color: #64748b;
+    font-weight: 500;
+  }
+  .innerContainer1 {
+    width: 90%;
+  }
+  .innerContainer3 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logoLink {
+    margin-top: -16px;
+    margin-left: 0px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .deleteIcon {
+    width: 25px;
+    height: 25px;
+  }
+}
