@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.container {
+  /* height: auto; */
+  background: linear-gradient(to top, #9796f0, #fbc7d4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cardContainer {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 19px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardTopContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+  width: 93%;
+}
+form {
+  margin-bottom: 15px;
+}
+.formContainer {
+  width: 50%;
+}
+label {
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 15px;
+}
+.titleInput,
+.dateInput {
+  width: 95%;
+  padding: 12px;
+  border-radius: 9px;
+  margin: 10px 0px;
+}
+.button {
+  color: #fff;
+  background-color: #8b5cf6;
+  border: none;
+  padding: 11px 21px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.imageContainer {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  margin-bottom: 19px;
+}
+.image {
+  width: 85%;
+  transition: all 0.4s;
+}
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+}
+.normal {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  padding: 3px 12px;
+  border-radius: 15px;
+}
+.special {
+  background-color: #9897f0;
+  color: #fff;
+  border: none;
+}
+.resultContainer {
+  width: 93%;
+}
+.resultContainer {
+  list-style: none;
+  display: flex;
+  margin-left: -35px;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+  .imageContainer {
+    display: none;
+  }
+  .cardTopContainer {
+    width: 95%;
+  }
+  .formContainer {
+    width: 100%;
+  }
+  .titleInput,
+  .dateInput {
+    width: 100%;
+  }
+  .bottomContainer {
+    width: 95%;
+  }
+}
