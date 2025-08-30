@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.secondBoxInner {
+  display: flex;
+  margin-top: 19px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.displayCardImg {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.displayCard {
+  display: flex;
+  align-items: center;
+  border: 2px solid red;
+  border-radius: 15px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+.dCard1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.dCard2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.dCard3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.displayCardAmount {
+  font-size: 28px;
+}
+@media screen and (max-width: 780px) {
+  .displayCard {
+    width: 100%;
+  }
+}

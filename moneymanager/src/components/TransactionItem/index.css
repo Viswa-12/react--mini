@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+}
+.deleteButton {
+  border: none;
+  background-color: transparent;
+}
+.listItem {
+  display: flex;
+  border-left: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-bottom: 1px solid #cbd5e1;
+}
+.item1,
+.item2,
+.item3 {
+  width: 30%;
+}
+.item1 {
+  margin-left: 8px;
+}

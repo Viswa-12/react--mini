@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.cardContainer {
+  width: 84%;
+}
+.firstBoxSpecial {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.firstBox {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+.secondBox {
+  width: 100%;
+}
+.resultContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.result1Container {
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 10px;
+  width: 45%;
+}
+input,
+select {
+  width: 100%;
+  padding: 8px 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.result2Container {
+  width: 49%;
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  padding: 15px;
+}
+.submitBtn {
+  background-color: #0b69ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9px;
+}
+.resultsContainer {
+  list-style: none;
+  margin-left: -40px;
+}
+.header {
+  border: 1px solid #cbd5e1;
+  font-weight: bold;
+  display: flex;
+}
+.headerType {
+  width: 25%;
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 750px) {
+  .cardContainer {
+    width: 96%;
+  }
+  .header {
+    justify-content: flex-start;
+  }
+  .headerType {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .cardContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .result1Container {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .result2Container {
+    width: 100%;
+    padding: 5px;
+  }
+  .result1ContainerHeading,
+  .historyHeading {
+    font-size: 23px;
+  }
+}
