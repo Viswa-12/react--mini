@@ -1,0 +1,16 @@
+.emojiGameContainer {
+  background: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.emojisList {
+  list-style: none;
+  width: 75%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 625px) {
+  .emojisList {
+    width: 90%;
+  }
+}

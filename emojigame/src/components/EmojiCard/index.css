@@ -1,0 +1,28 @@
+.emojiContainer {
+  margin-bottom: 1rem;
+  background-color: #9796f0;
+  width: 15%;
+  padding-block: 1rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.emojiImg {
+  width: 75px;
+}
+.cardBtn {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 725px) {
+  .emojiContainer {
+    width: 25%;
+  }
+  .emojiImg {
+    width: 50px;
+    padding-inline: 0.8rem;
+  }
+}
