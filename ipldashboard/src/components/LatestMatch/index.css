@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.latestMatchContainer {
+  background-color: #0f172a;
+  color: #fff;
+  font-family: bree serif;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.latestFirstContainer {
+  display: flex;
+  align-items: center;
+}
+.competingTeamlatestLogo {
+  width: 100px;
+}
+@media screen and (max-width: 599px) {
+  .latestMatchContainer {
+    flex-direction: column;
+  }
+  .latestFirstContainer {
+    border-bottom: 2px solid #fff;
+  }
+}

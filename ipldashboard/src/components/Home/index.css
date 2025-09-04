@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.homeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.homeInnerContainer {
+  text-align: center;
+  width: 60%;
+}
+.homeLogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.iplLogo {
+  width: 40px;
+}
+.homecontainerHeading {
+  color: #fff;
+  margin-left: 10px;
+}
+.homeCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .homeContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .homeInnerContainer {
+    width: 100%;
+  }
+  .homecontainerHeading {
+    font-size: 28px;
+  }
+  .homeContainer {
+    height: auto;
+  }
+}

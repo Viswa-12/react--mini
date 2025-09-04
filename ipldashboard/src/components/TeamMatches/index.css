@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.detailsContainer {
+  background: linear-gradient(to bottom, #a4261d, #5755a7);
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: bree serif;
+}
+.detailsCardContainer {
+  width: 60%;
+}
+.detailsTeamImg {
+  width: 100%;
+}
+.detailsCardHeading {
+  color: #fff;
+  font-size: 24px;
+}
+.recentMatchesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+@media screen and (max-width: 599px) {
+  .detailsCardContainer {
+    width: 95%;
+  }
+}

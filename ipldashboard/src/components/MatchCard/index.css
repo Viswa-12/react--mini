@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.matchCardContainer {
+  background-color: #0f172a;
+  margin-top: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+.competingTeamLogoCard {
+  width: 50%;
+}
+.teamName {
+  font-size: 19px;
+}
+.lostMatch {
+  color: red;
+}
+.winMatch {
+  color: green;
+}
+
+@media screen and (max-width: 599px) {
+  .matchCardContainer {
+    width: 100%;
+  }
+}

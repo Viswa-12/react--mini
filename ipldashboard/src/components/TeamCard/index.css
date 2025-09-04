@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.homeDisplayCard {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 130px;
+  background-color: #ffffff33;
+}
+.card-Link {
+  text-decoration: none;
+  color: #fff;
+  width: 45%;
+  margin-right: 10px;
+}
+.homeCardImg {
+  width: 60px;
+  margin-left: 10px;
+}
+.homeCardTeam {
+  font-size: 27px;
+  width: 105%;
+  font-family: bree serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 850px) {
+  .card-Link {
+    width: 90%;
+  }
+  .homeDisplayCard {
+    width: 100%;
+  }
+  .homeCardTeam {
+    font-size: 23px;
+    width: 100%;
+  }
+}
