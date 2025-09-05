@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  /* border: 2px solid red; */
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin-inline: auto;
+}
+
+.tabsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.containerHeading {
+  font-family: 'lobster';
+  font-size: 39px;
+}
+.failureImg {
+  width: 85%;
+}
+.itemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    width: 90%;
+  }
+  .containerHeading {
+    font-size: 32px;
+  }
+}

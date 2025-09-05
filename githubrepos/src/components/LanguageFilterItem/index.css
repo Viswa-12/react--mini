@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.activeTab,
+.normalTab {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+  transition: all 0.5s;
+}
+.activeTab {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+  border-radius: 13px;
+  padding: 5px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .normalTab {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.cardImg {
+  width: 55%;
+}
+.itemContainer {
+  width: 30%;
+  background-color: #f8f8ff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-block: 2rem;
+  margin-bottom: 13px;
+  margin-right: 2%;
+}
+.indicatorImg {
+  width: 18px;
+  margin-right: 10px;
+}
+.itemName {
+  color: #e73959;
+  font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .itemContainer {
+    width: 90%;
+  }
+  .cardImg {
+    width: 40%;
+  }
+}
